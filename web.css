@@ -1,0 +1,312 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    font-size: 20px;
+    padding: 60px 100px;
+    background-color: #edf2ec;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.navbar {
+    display: flex;
+}
+
+.navbar p {
+    margin-left: 40px;
+}
+
+.page:hover {
+    color: white;
+    background-color: #E06733;
+    cursor: pointer;
+}
+
+/*=============================== Main*/
+
+.main {
+    background-color: #edf2ec;
+    display: flex;
+    justify-content: space-around;
+    padding: 0 90px;
+}
+
+.image{
+    flex: 2;
+
+}
+.text h1 {
+    font-weight: bold;
+    font-size: 45px;
+    line-height: 50px;
+    color: #717171;
+}
+  
+.text span {
+    color: green;
+}
+
+.text p {
+    margin: 42px 0 48px;
+    font-size: 20px;
+    font-weight: 400;
+    color: #636060;
+    line-height: 1.75;
+}
+
+.text{
+    flex: 1;
+}
+
+.page{
+    font-size: 16px;
+    font-weight: 400;
+    padding: 0.8em 1.6em;
+    border: 2px solid #E06733;
+    border-radius: 10px;
+    background: none;
+   
+    cursor: pointer;
+}
+
+.page :hover{
+    color: tomato;
+}
+
+/*============= Info ==========*/
+
+.info {
+   display: flex;
+   padding: 80px 100px;
+}
+
+.info_text {
+    flex: 1;
+}
+
+.info_image {
+    flex: 1;
+}
+
+.info_text p {
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #636060;
+}
+
+.info_text h1 {
+    font-family: 'Inika', serif;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 52px;
+    color: #499A18;
+    margin-bottom: 40px;
+}
+
+.info_text span {
+    color: #E06733;
+}
+
+.info_image {
+    margin-left: 120px;
+}
+
+/*=========== servise========*/
+
+.services {
+    background-color: #edf2ec;
+    padding: 80px 100px;
+}
+.projects_btn{   
+    display: flex;
+    margin-bottom: 100px;
+}
+
+.projects_btn h1 {
+    margin-right: 120px;
+    font-family: 'Inika', serif;
+    line-height: 1.3;
+    font-size: 40px;
+    font-weight: 400;
+    color: #499A18;
+    
+}
+
+.projects_btn button {
+    margin-left: 30px;
+}
+
+.buttuns button {
+    border: 1px solid #E06733;
+    border-radius: 5px;
+    font-family: 'Inika', serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #E06733;
+    background: none;
+    padding: 0.6em 2em;
+    cursor: pointer;
+}
+
+.buttuns button:hover {
+    color: white;
+    background-color: #E06733;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+
+    gap: 50px;
+}
+
+.item {
+    width: 330px;
+    border: 1px solid #e3e1d5;
+    border-radius: 0 0 20px 20px;
+    text-align: center;
+}
+
+.item p {
+    margin-bottom: 20px;
+}
+
+/*========== Price ======*/
+
+.prices {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 42px;
+    padding-bottom: 115px;
+}
+    
+
+
+.price_btn {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 1px solid #E3E1D5;
+    border-radius: 20px;
+    margin-top: 60px;
+    padding: 34px 41px;
+    width: 248px;
+    height: 212px;
+}
+
+.form h1 {
+    font-family: 'Inter', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.price_item {
+    
+    
+    
+}
+.price_btn {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 1px solid #E3E1D5;
+    border-radius: 20px;
+    margin-top: 60px;
+    padding: 34px 41px;
+    width: 300px;
+    height: 240px;
+    gap: 20px;
+}
+.price_item {
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 10px 20px;
+    background-color: #EDF2EC;
+    border-radius: 20px;
+    display: inline-block;
+    width: 200px;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+
+
+.gardenners h1 {
+    font-family: 'Inter', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    width: 452px;
+    height: 103px;
+    text-align: right;
+    line-height: 1.25;
+}
+
+.gardenners span {
+    color: green;
+}
+
+/*========Contact _us======*/
+
+.contact_us {
+    background-color: #EDF2EC;
+    display: flex;
+    padding:  80px 100px;
+}
+
+.contact_us img {
+    flex: 1;
+}
+
+.contact_par {
+    width: 350px;
+    height: 50px;
+    background-color: gray;
+    font-size: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+    
+    margin: 150px auto;
+}
+
+.contact_info {
+    flex: 1;
+    
+}
+
+.contact_us img {
+    height: 400px;
+}
+============================================
+.footer {
+    padding: 40px 100px;
+    margin-bottom: 70px;
+    font-size: 25px;
+    justify-content:space-between;
+    display: flex;
+}
+
+.github {
+    word-spacing: 20px;
+}
+
+
+.icons i {
+    font-size: 30px;
+    margin-left: 20px;
+}
